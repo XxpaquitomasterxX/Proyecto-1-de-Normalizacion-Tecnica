@@ -75,7 +75,7 @@ Valores tomados en **16–33 V, entrada DC, patrón Temporal High** (temporal 3 
 
 Total de aparatos: **11 horn/strobe + 4 strobes solos** (oficina, baño y los dos sanitarios del sótano llevan solo notificación visual). El detalle de candelas por recinto está en `BOM_Calculos/6_Notificacion_Candelas.csv`.
 
-### ⚠️ Criterio de candelas — leer esto antes de entregar
+### Criterio de candelas 
 
 La tabla de NFPA 72 de espaciamiento en recintos para aparatos visuales **de pared** (un aparato por sala) tiene una fila intermedia que se suele pasar por alto:
 
@@ -110,7 +110,7 @@ Resistencias — **NEC Capítulo 9, Tabla 8** (cobre sin recubrir, Ω por cada 1
 | **16 AWG** | **4,89** | **5,08** |
 | 18 AWG | 7,77 | 8,08 |
 
-> ⚠️ **Ojo con la plantilla original.** El CSV `4_Caida_Tension_NAC.csv` traía 16 AWG = 0,01318 Ω/m (≈4,02 Ω/kft) y 14 AWG = 0,00829 Ω/m (≈2,53 Ω/kft). Esos son valores **teóricos a 20 °C**, no los del NEC. Para un proyecto de normalización hay que usar la **Tabla 8 del Capítulo 9 del NEC**, que es la fuente citable. Los valores del NEC son más altos (más conservadores), así que usar los de la plantilla daría una caída **subestimada**.
+
 
 **Tensión de partida:** 24 VDC nominal, pero el caso desfavorable es con las baterías al final de la descarga. Se adopta **20,4 V** como tensión de partida del cálculo (85 % de 24 V), que es la práctica estándar y el caso que exige NFPA 72 verificar.
 
@@ -125,11 +125,7 @@ montante de la escalera del South Foyer, (b) el tramo vertical del montante entr
 niveles (≈12 ft) para NAC-1 y NAC-2, y (c) el recorrido en planta de cada circuito.
 Sobre ese total se aplica una holgura del 25 % por recorrido real de canalización.
 
-> ⚠️ **Por qué cambiaron respecto de la revisión A.** En la revisión A los cuatro NAC
-> se habían dibujado como cadenas sueltas, sin acometida desde el panel, y las
-> longitudes (130 / 110 / 90 / 70 ft) no correspondían a ningún recorrido dibujado.
-> Al cerrar cada circuito contra el FACP los recorridos se alargan y la caída sube;
-> aun así los cuatro circuitos siguen cumpliendo con margen.
+
 
 ### Resultados
 
@@ -170,11 +166,7 @@ Criterio: V_final ≥ 16 V (mínimo SpectrAlert Advance, datasheet AVDS102)
 | Longitud del lazo (16 AWG) | ≈1 200 ft | **4 875 ft** | **24,6 %** ✔ |
 | Resistencia c.c. del lazo | **11,7 Ω** | 40 Ω | **29 %** ✔ |
 
-> ⚠️ **Corrección de la revisión A.** La revisión A comparaba la longitud del lazo contra
-> **10 000 ft**: ese es el máximo del **12 AWG**. Con el **16 AWG** que especifica el BOM el
-> máximo es **4 875 ft**, tanto en modo CLIP como en LiteSpeed (Fire•Lite, *SLC Wiring
-> Manual* doc. 51309, Tablas 2.1 y 2.2). La utilización real es del 24,6 %, no del 12 %.
-> Sigue cumpliendo con holgura, pero el dato citado estaba mal.
+
 
 **Resistencia c.c. del lazo (requisito propio del fabricante, no de NFPA).** El doc. 51309
 §2.2.1 exige que, en Style 4, la resistencia c.c. desde el panel hasta el final de cada
