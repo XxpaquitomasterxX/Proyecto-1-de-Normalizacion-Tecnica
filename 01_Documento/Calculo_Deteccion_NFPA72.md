@@ -133,19 +133,8 @@ Espacio libre sobre la estantería   =  7,56 ft   (49 % de la altura de cielo)
 
 > **Conclusión:** las estanterías **no** compartimentan el espacio. Hay 7'-7" de altura libre continua sobre todo el abanico, y el humo llega al cielo sin obstrucción. Se aplica **espaciamiento normal de cielo liso**, y los 2 detectores de la zona de Stacks quedan justificados **por geometría** (la esquina crítica a 20,8 ft ≤ 21 ft), no por un argumento de obstrucción.
 >
-> ⚠️ La sección 9 corta la ebanistería perimetral. Conviene declarar en el informe que se asume la misma altura para las estanterías radiales exentas, que es el orden de magnitud habitual en bibliotecas (7 a 7'-6").
 
 ### 5.3 Ático combustible sobre la rotonda — limitación a declarar
 Entre el casquete de yeso y el domo exterior queda un **espacio oculto de gran volumen con cerchas de madera** (lámina 10). El diseño **no** coloca detección ahí. Conviene declararlo explícitamente como limitación en la Sección 6 y señalar que en un proyecto real habría que consultarlo con la AHJ.
 
----
 
-## 6. Lo que falta para cerrar los cálculos
-
-| Falta | De dónde sale | Bloquea |
-|---|---|---|
-| **Datasheets reales de la familia MS-9600** | Sebas (Sección 3) | corriente standby/alarma, caída de tensión en NAC, dimensionamiento de baterías |
-| **Tabla candela↔corriente del horn/strobe** | datasheet del dispositivo de notificación | es el consumo dominante; sin ella no se puede cerrar el NAC ni la batería |
-| **Edición de NFPA 72 / NFPA 101 adoptada** | Walter (Sección 1.4) | validez de todas las citas de sección |
-
-> **Nota:** ya **no falta ningún plano**. El sótano es la lámina 3 y las secciones son las láminas 9 y 10, todas descargadas. Las dos incógnitas normativas (domo y estanterías) quedaron **resueltas y cerradas** en la sección 5 de este documento.
