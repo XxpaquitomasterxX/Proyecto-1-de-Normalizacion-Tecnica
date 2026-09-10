@@ -1,8 +1,0 @@
-# MS-9600LS. Corrientes del manual Fire-Lite PN 52646:B Tabla 5.3. Col1=primaria no-alarma / Col3=secundaria (bateria)
-Dispositivo,Modelo,Cantidad,I unit Col1 (A),I total Col1 (A),I unit Col3 (A),I total Col3 (A),Notas
-Panel FACP (placa principal),MS-9600LS,1,0.15,0.15,0.12,0.12,Tabla 5.3 manual 52646
-Anunciador remoto LCD,ANN-80,1,0.037,0.037,0.015,0.015,En East Foyer para acceso de bomberos
-Detector de humo fotoelectrico,SD355,15,0.0003,0.0045,0.0003,0.0045,Direccionable SLC
-Detector termico rate-of-rise,H355R,2,0.0003,0.0006,0.0003,0.0006,Cuartos mecanicos sotano
-Estacion manual direccionable,BG-12LX,4,0.0003,0.0012,0.0003,0.0012,Una por salida
-TOTAL STANDBY (A),,23,,0.1933,,0.1413,Col3 es la que va a la Tabla 5.4
