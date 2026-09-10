@@ -1,0 +1,27 @@
+# Room Schedule - Paxton Carnegie Library (HABS IL-329). Medido sobre TIFF 400 dpi, escala 1/4"=1'-0" -> 100 px/pie (calibracion verificada contra barra grafica).
+# Areas netas interiores. Precision +/-3 por ciento salvo la rotonda (geometria exacta: circulo r=13'-6").
+# Alturas libres (laminas 9 y 10, 3/8"=1'-0" -> 150 px/pie): piso 1 = 15'-3 3/4" | rotonda = 17'-3" en clave | sotano = 8'-3 3/32"
+Nivel,ID,Recinto,Dim aprox (ft),Area neta (ft2),Area (m2),Cielo,Uso IBC T1004.5,Carga ocupacional,Deteccion propuesta,Cant,Notificacion,Notas
+1,101,Stacks + piso abierto NO,28.3 x 18.3 + trapecio,710,66.0,Liso 15'-3.75",Stack area 100 gross,8,Humo puntual,2,H/S x1,Estanteria remata a 7'-9" con cielo a 15'-3.75": regla del 15pct NO aplica (lamina 9)
+1,102,North Reading Room,19.8 x 18.3,350,32.5,Liso,Reading room 50 net,7,Humo puntual,1,H/S x1,Esquina NE achaflanada
+1,103,South Reading Room (rotonda),circulo r=13.5,573,53.2,Casquete rebajado 17'-3" (liso),Reading room 50 net,12,Humo puntual al centro,1,H/S x1,Casquete rebajado (flecha 1-11 en luz 27ft ~7pct): se trata como CIELO LISO
+1,104,Circulacion central diagonal,irregular,280,26.0,Liso,Circulacion 100 gross,3,Humo puntual,1,H/S x1,Planta libre con columnas, no muros
+1,105,Librarian's Office,10.1 x 13.5,136,12.6,Liso,Business 150 gross,1,Humo puntual,1,Strobe x1,
+1,106,Bath,6.6 x 6.5,43,4.0,Liso,-,0,Ninguna,0,Strobe x1,Sanitario: sin detector; SI requiere notificacion visual
+1,107,East Foyer,5.5 x 8.0,44,4.1,Liso,Circulacion,0,Humo puntual,1,H/S x1,Vestibulo entrada principal. Pull station aqui
+1,108,South Foyer + escalera,9.5 x 16.5,157,14.6,Liso,Circulacion,0,Humo puntual (cabeza de escalera),1,H/S x1,UNICA escalera interior del edificio. Pull station aqui
+1,,SUBTOTAL PISO 1,,2293,213.0,,,31,,8,,
+B,001,Children's Reading Room NO,23 x 20,460,42.7,Liso,Reading room 50 net,9,Humo puntual,1,H/S x1,
+B,002,Children's Reading Room (rotonda),circulo r=13.5,573,53.2,Liso (viga rotonda),Reading room 50 net,12,Humo puntual,1,H/S x1,Bajo la rotonda; cielo plano con viga (4)2x12
+B,003,Storage Room NE,16 x 20,320,29.7,Liso,Storage 300 gross,1,Humo puntual,1,H/S x1,
+B,004,Mechanical Room (oeste),10 x 8,80,7.4,Liso,-,0,TERMICO,1,-,Humo no apto: polvo/combustion. NFPA 72 cap. 17.6
+B,005,Mechanical Room (este),11 x 12,132,12.3,Liso,-,0,TERMICO,1,-,Idem
+B,006,Electrical Room,8 x 10,80,7.4,Liso,-,0,Humo puntual,1,-,Cuarto electrico: humo (sin combustion)
+B,007,Hallway,~20 ft largo,120,11.1,Liso,Circulacion,0,Humo puntual,1,H/S x1,
+B,008,Storage (oeste pequeno),-,45,4.2,Liso,Storage 300 gross,0,Cubierto por hallway,0,-,
+B,009,Women's Restroom,-,60,5.6,Liso,-,0,Ninguna,0,Strobe x1,
+B,010,Men's Restroom,-,75,7.0,Liso,-,0,Ninguna,0,Strobe x1,
+B,011,Janitor's Closet,-,35,3.3,Liso,-,0,Humo puntual,1,-,
+B,012,South Foyer (pie de escalera),-,90,8.4,Liso,Circulacion,0,Humo puntual,1,H/S x1,Pie de la escalera interior
+B,,SUBTOTAL SOTANO,,2070,192.3,,,22,,9,,
+TOTAL,,EDIFICIO,,4363,405.3,,,53,Humo=15 / Termico=2,17,,Carga ocupacional total ~53 -> IBC Grupo A-3 (verificar)

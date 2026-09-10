@@ -1,0 +1,29 @@
+# Tabla 5.4 del manual Fire-Lite 52646:B. NFPA 72 sistema Local: 24 h standby + 5 min alarma.
+Parametro,Valor,Unidad,Notas / Formula
+Carga standby secundaria (Col 3),0.1413,A,De la hoja 2 (Tabla 5.3 Col 3)
+Tiempo de standby requerido,24,h,NFPA 72 sistema Local
+AH standby,3.3912,Ah,= 0.1413 x 24
+Carga en alarma sin NAC (Col 2),0.6100,A,Panel + ANN-80 + 0.400 A global del lazo SLC
+Corriente total de los 4 NAC,PENDIENTE,A,Falta datasheet de los horn/strobe
+Tiempo de alarma requerido,5,min,Factor 0.084 h segun Tabla 5.4
+AH alarma,=(B5+B6)*0.084,Ah,
+Factor de derating,1.2,-,Exigido por la Tabla 5.4 del manual
+CAPACIDAD CALCULADA,=(B4+B8)*B9,Ah,Da del orden de 3.8 a 4.2 Ah para cualquier I_NAC realista
+BATERIA MINIMA DEL PANEL,12,Ah,El panel no admite menos de 12 Ah -> GOBIERNA EL MINIMO
+BATERIA SELECCIONADA,12,Ah,Dos baterias de 12 V 12 Ah en serie
+Maximo en gabinete,18,Ah,Mas de 18 Ah exige gabinete externo BB-26 o BB-55F
+Maximo del cargador,26,Ah,
+,,,
+--- VERIFICACION SLC ---,,,
+Detectores usados,17,-,15 humo + 2 termicos
+Maximo detectores por lazo,159,-,Hoja tecnica DF-60334
+Utilizacion detectores,10.7,%,OK
+Modulos usados,4,-,Estaciones manuales BG-12LX
+Maximo modulos por lazo,159,-,
+Utilizacion modulos,2.5,%,OK
+Lazos SLC requeridos,1,-,No se necesita el modulo SLC-2LS de segundo lazo
+,,,
+--- VERIFICACION NAC ---,,,
+NAC disponibles en el panel,4,-,Style Y Clase B
+Maximo por NAC,3.0,A,Special application
+Maximo global en alarma,7.0,A,NAC + potencia auxiliar

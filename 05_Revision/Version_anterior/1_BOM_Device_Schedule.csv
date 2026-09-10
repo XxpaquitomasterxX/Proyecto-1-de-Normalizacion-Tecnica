@@ -1,0 +1,27 @@
+# BILL OF MATERIALS / DEVICE SCHEDULE - Paxton Carnegie Library
+# Sistema Fire-Lite Alarms (Honeywell) MS-9600LS direccionable. Corrientes verificadas contra manual PN 52646:B Tabla 5.3 y datasheet System Sensor AVDS102.
+# Compatibilidad panel-notificacion: Fire-Lite Device Compatibility Document P/N 15384:BR, pag. 12.
+ID,Dispositivo,Fabricante,Modelo,Funcion,Cantidad,Voltaje,I standby (A),I alarma (A),Alimentacion,Compatible con panel,Tipo conexion,Norma justificacion,Ubicaciones,Datasheet
+FACP-1,Panel de control direccionable,Fire-Lite Alarms (Honeywell),MS-9600LS,Control central del sistema,1,120 VAC / 24 VDC,0.150 (0.120 en bateria),0.170,Red 120 VAC dedicada,-,-,NFPA 72 cap. 10 / UL 864,Electrical Room (sotano),DF-60334:A6
+ANN-1,Anunciador remoto LCD,Fire-Lite Alarms (Honeywell),ANN-80,Anunciacion en entrada principal,1,24 VDC,0.037 (0.015 en bateria),0.040,ANN-BUS EIA-485,Si,ANN-BUS,Acceso del cuerpo de bomberos,East Foyer (piso 1),PN 52646:B Tabla 5.3
+DET-1,Detector de humo fotoelectrico,Fire-Lite Alarms (Honeywell),SD355,Deteccion de humo,15,24 VDC,0.00030,valor global de lazo,Lazo SLC,Si,Direccionable,NFPA 72 cap. 17,D-101 a D-108 / D-001 a D-007,PN 52646:B Tabla 5.3
+DET-2,Detector termico fijo + razon de aumento,Fire-Lite Alarms (Honeywell),H355R,Deteccion termica,2,24 VDC,0.00030,valor global de lazo,Lazo SLC,Si,Direccionable,NFPA 72 cap. 17,H-001 y H-002 (cuartos mecanicos),PN 52646:B Tabla 5.3
+BAS-1,Base de detector bajo perfil,Fire-Lite Alarms (Honeywell),B350LP,Base de montaje,17,-,-,-,Lazo SLC,Si (SLC Wiring Manual 51309 ap. D.1),Direccionable,-,Una por detector,Doc 51309
+MPS-1,Estacion manual direccionable,Fire-Lite Alarms (Honeywell),BG-12LX,Alarma manual,4,24 VDC,0.00030,valor global de lazo,Lazo SLC,Si,Direccionable,NFPA 72 cap. 17,M-101 M-102 M-001 M-002,PN 52646:B Tabla 5.3
+HS-1,Horn/Strobe 15 cd,System Sensor (Honeywell),P2R,Notificacion audible y visual,8,24 VDC (rango 16-33 V),0,0.079,Circuito NAC,Si (DCD 15384:BR pag.12),NAC Clase B,NFPA 72 cap. 18,Ver 6_Notificacion_Candelas.csv,AVDS102
+HS-2,Horn/Strobe 30 cd,System Sensor (Honeywell),P2R,Notificacion audible y visual,3,24 VDC (rango 16-33 V),0,0.107,Circuito NAC,Si (DCD 15384:BR pag.12),NAC Clase B,NFPA 72 cap. 18,N-103 N-001 N-003,AVDS102
+HS-3,Horn/Strobe 75 cd,System Sensor (Honeywell),P2R,Notificacion audible y visual,1,24 VDC (rango 16-33 V),0,0.176,Circuito NAC,Si (DCD 15384:BR pag.12),NAC Clase B,NFPA 72 cap. 18,N-101 (Stacks 28.3x28.3 ft),AVDS102
+STR-1,Strobe 15 cd,System Sensor (Honeywell),SR,Notificacion visual,4,24 VDC (rango 16-33 V),0,0.066,Circuito NAC,Si (DCD 15384:BR pag.12),NAC Clase B,NFPA 72 cap. 18,N-105 N-106 N-005 N-006,AVDS102
+BAT-1,Bateria sellada plomo-acido,-,12 V / 12 AH,Energia secundaria,2,12 V c/u (24 V en serie),-,-,Cargador del panel,Si (min. 12 AH),Terminales de bateria,NFPA 72: 24 h + 5 min,Gabinete del FACP,-
+EOL-1,Resistencia de fin de linea,Fire-Lite Alarms (Honeywell),P/N 71252,Supervision de NAC,4,-,-,-,-,Si,Extremo de cada NAC,Supervision Clase B,Una por NAC,DF-60334:A6
+CBL-1,Cable de lazo SLC,-,Par trenzado 16 AWG,Lazo de deteccion,~1200 ft,-,-,-,-,-,Style 4 (Clase B),NEC Art. 760,16 AWG admite hasta 4875 ft (doc 51309),Doc 51309
+CBL-2,Cable de NAC,-,FPLR 16 AWG,Circuitos de notificacion,~400 ft,-,-,-,-,-,Clase B,NEC Art. 760 / cap.9 tabla 8,4 circuitos,NEC
+CBL-3,Cable de acometida,-,14 AWG aislamiento 600 V,Circuito derivado dedicado,~50 ft,120 VAC,-,-,-,-,-,NEC Art. 760,Rotulado FIRE ALARM,PN 52646:B seccion 5.2
+,,,,,,,,,,,,,,
+RESUMEN,,,,,,,,,,,,,,
+Puntos direccionables en el lazo SLC,,,,,21,,,,,,,17 detectores + 4 modulos de 159+159,,
+Aparatos de notificacion,,,,,15,,,,,,,11 horn/strobe + 4 strobe,,
+Corriente total en standby (bateria),,,,,,,0.1413,,,,,Tabla 5.3 Col 3,,
+Corriente total en alarma,,,,,,,,1.924,,,,26.5 pct del limite de 7.0 A,,
+Bateria requerida por calculo,,,,,,,,,,,,4.26 AH,,
+Bateria instalada,,,,,,,,,,,,12 AH (minimo del panel),,

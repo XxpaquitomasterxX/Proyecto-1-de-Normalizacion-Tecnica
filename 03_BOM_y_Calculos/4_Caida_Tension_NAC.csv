@@ -1,0 +1,13 @@
+# Caida de tension NAC. Vpartida=20.4 V (baterias al final de descarga). Vmin=16 V (SpectrAlert Advance 24V nominal: rango 16-33 V, datasheet AVDS102).
+# R segun NEC Capitulo 9 Tabla 8, cobre solido: 16 AWG=4.89 ohm/kft, 14 AWG=3.07 ohm/kft.
+# Vdrop = 2 x (L/1000) x I x R. Metodo conservador: toda la corriente recorre toda la longitud.
+# REVISION B: longitudes remedidas sobre el recorrido dibujado en los planos corregidos,
+# incluyendo el tramo FACP -> montante y la subida entre niveles. En la revision A los NAC
+# no llegaban al panel en el plano y las longitudes no correspondian a ningun recorrido.
+Circuito,Zona,Disp,Recorrido medido (ft),Longitud (ft),I (A),% de 3.0A,Vdrop 16AWG,Vfinal 16AWG,Vdrop 14AWG,Vfinal 14AWG,Cumple >=16V
+NAC-1,Piso 1 - ala norte,3,133.8,167,0.334,11.1%,0.546,19.85,0.343,20.06,SI
+NAC-2,Piso 1 - ala sur,5,138.9,174,0.397,13.2%,0.676,19.72,0.424,19.98,SI
+NAC-3,Sotano - ala norte,3,80.0,100,0.293,9.8%,0.287,20.11,0.180,20.22,SI
+NAC-4,Sotano - ala sur,4,59.5,74,0.290,9.7%,0.210,20.19,0.132,20.27,SI
+TOTAL,,15,,,1.314,,,,,,Limite global panel 7.0 A -> total en alarma 1.924 A
+PEOR CASO,NAC-2,,,174,0.397,,0.676,19.72,,,Margen de 3.72 V sobre el minimo de 16 V

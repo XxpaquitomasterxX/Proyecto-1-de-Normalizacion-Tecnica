@@ -1,0 +1,12 @@
+# MS-9600LS. Columna 2 (primaria en alarma), Tabla 5.3 manual 52646:B
+# El manual permite usar un valor global de 0.400 A para TODOS los dispositivos SLC con un (1) lazo, en vez de sumarlos uno por uno.
+Dispositivo,Modelo,Cantidad,I unit alarma (A),I total alarma (A),Notas
+Panel FACP (placa principal),MS-9600LS,1,0.17,0.17,Tabla 5.3
+Anunciador remoto LCD,ANN-80,1,0.04,0.040,Tabla 5.3
+Todos los dispositivos del lazo SLC,SD355/H355R/BG-12LX,21,-,0.4,Valor global del manual para 1 lazo SLC
+NAC-1 Piso 1 ala norte,,3,PENDIENTE,PENDIENTE,Falta datasheet horn/strobe
+NAC-2 Piso 1 ala sur,,6,PENDIENTE,PENDIENTE,Falta datasheet horn/strobe
+NAC-3 Sotano ala norte,,3,PENDIENTE,PENDIENTE,Falta datasheet horn/strobe
+NAC-4 Sotano ala sur,,5,PENDIENTE,PENDIENTE,Falta datasheet horn/strobe
+SUBTOTAL sin NAC (A),,,,0.6100,A esto se le suma la corriente de los 4 NAC
+LIMITE DEL PANEL (A),,,,7.000,Total de NAC + potencia auxiliar no puede exceder 7.0 A

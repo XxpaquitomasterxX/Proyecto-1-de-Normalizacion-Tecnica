@@ -1,0 +1,20 @@
+# Seleccion de candelas. Corrientes: System Sensor SpectrAlert Advance AVDS102, 16-33 V, DC, Temporal High.
+# CRITERIO NFPA 72 (tabla de espaciamiento en recintos, aparatos visuales de pared, UN aparato por sala):
+#   sala hasta 20x20 ft -> 15 cd | hasta 28x28 ft -> 30 cd | hasta 30x30 ft -> 34 cd | hasta 40x40 ft -> 60 cd
+#   OJO: la fila de 30x30 exige 34 cd, NO 30 cd. Ver nota en Calculo_Electrico_Seccion5.md
+Circuito,Recinto,Tipo,Modelo,Dim envolvente (ft),Candelas,I unit (A),Criterio
+NAC-1,101 Stacks,H/S,P2R (horn/strobe),28.3 x 28.3,75,0.176,28.3 ft supera la fila de 28x28 -> exige 34 cd -> se sube al ajuste disponible de 75 cd
+NAC-1,102 North Reading,H/S,P2R (horn/strobe),19.8 x 18.3,15,0.079,Sala hasta 20x20 ft
+NAC-1,104 Circulacion central,H/S,P2R (horn/strobe),~20 x 20,15,0.079,Sala hasta 20x20 ft
+NAC-2,103 Rotonda,H/S,P2R (horn/strobe),27 diam.,30,0.107,Sala hasta 28x28 ft
+NAC-2,105 Librarians Office,ST,SR (strobe),10.1 x 13.5,15,0.066,Sala hasta 20x20 ft
+NAC-2,106 Bath,ST,SR (strobe),6.6 x 6.5,15,0.066,Sala hasta 20x20 ft
+NAC-2,107 East Foyer,H/S,P2R (horn/strobe),5.5 x 8.0,15,0.079,Sala hasta 20x20 ft
+NAC-2,108 South Foyer,H/S,P2R (horn/strobe),9.5 x 16.5,15,0.079,Sala hasta 20x20 ft
+NAC-3,001 Childrens NO,H/S,P2R (horn/strobe),23 x 20,30,0.107,Sala hasta 28x28 ft
+NAC-3,002 Childrens rotonda,H/S,P2R (horn/strobe),27 diam.,30,0.107,Sala hasta 28x28 ft
+NAC-3,003 Storage NE,H/S,P2R (horn/strobe),16 x 20,15,0.079,Sala hasta 20x20 ft
+NAC-4,007 Hallway,H/S,P2R (horn/strobe),corredor,15,0.079,Sala hasta 20x20 ft
+NAC-4,009 Womens Restroom,ST,SR (strobe),pequeno,15,0.066,Sala hasta 20x20 ft
+NAC-4,010 Mens Restroom,ST,SR (strobe),pequeno,15,0.066,Sala hasta 20x20 ft
+NAC-4,012 South Foyer,H/S,P2R (horn/strobe),pequeno,15,0.079,Sala hasta 20x20 ft
