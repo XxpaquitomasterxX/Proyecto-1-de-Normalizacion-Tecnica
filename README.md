@@ -68,19 +68,6 @@ Todas las citas del proyecto corresponden a esa edición. Se aplicaron además *
 Art. 760 para el cableado, el **IBC** para clasificación de ocupación y exigibilidad, y
 **UL 864** para el listado de los equipos.
 
-## Estructura del repositorio
-
-```
-Informe_Tecnico_Proyecto1_Paxton.docx   Entregable principal (62 páginas)
-Planos/                                 Fuente draw.io + exportaciones PDF/PNG
-Planos_HABS/                            Planos originales del registro HABS IL-329
-BOM_Calculos/                           Lista de materiales y hojas de cálculo
-Datasheets/                             Documentación de fabricante
-Secciones/                              Borradores por sección y registro de revisión
-```
-
-Los planos se abren en [app.diagrams.net](https://app.diagrams.net) →
-`Planos/Paxton_Sistema_Alarma.drawio` (3 páginas: piso 1, sótano y riser).
 
 ## Notas
 
