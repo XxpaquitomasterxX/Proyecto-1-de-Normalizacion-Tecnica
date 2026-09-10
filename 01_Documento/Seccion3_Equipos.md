@@ -4,8 +4,6 @@
 
 *Justificación:* se requiere una **única familia comercialmente compatible** (enunciado, punto 4). Fire•Lite es una línea de Honeywell orientada precisamente a edificios pequeños y medianos como este, con paneles direccionables de gama de entrada, y publica dos documentos que permiten sustentar documentalmente todo el diseño: el **manual de instalación PN 52646**, que trae las tablas de consumo de cada dispositivo y el método de cálculo de baterías, y el **Device Compatibility Document P/N 15384**, que lista qué dispositivos de terceros están probados con cada panel.
 
-> ⚠️ **Precisión de marca:** el MS-9600LS es de **Fire•Lite Alarms**, no de Notifier. Ambas pertenecen a Honeywell, pero son líneas de producto distintas con catálogos separados. En el documento debe escribirse *Fire•Lite Alarms (Honeywell)*.
-
 ---
 
 ## 3.1 Arquitectura: convencional vs. direccionable
