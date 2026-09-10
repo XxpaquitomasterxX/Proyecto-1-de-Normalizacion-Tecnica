@@ -179,20 +179,5 @@ Carga ocupacional calculada según **IBC Tabla 1004.5** (verificar edición adop
 
 **Resultado: carga ocupacional ≈ 53 personas → clasificación IBC Grupo A-3** (biblioteca, asamblea), justo por encima del umbral de 50 que la separaría del Grupo B.
 
-> **Hallazgo normativo relevante para la Sección 1 y para la Sección 6.**
-> Con ~53 ocupantes y un área de incendio muy inferior a 12 000 ft², este edificio **probablemente no está obligado** por IBC a instalar un sistema de alarma manual (el umbral típico en Grupo A es ≥300 ocupantes) ni un sistema de rociadores. El sistema que se diseña en este proyecto es, por tanto, un **sistema no requerido (voluntario)**.
-> Esto **no lo exime de la norma**: NFPA 72 establece que los sistemas no requeridos que se instalen deben cumplir íntegramente el Código. Conviene declararlo explícitamente — demuestra que el grupo entendió la diferencia entre *cuándo se exige* un sistema (IBC/IFC) y *cómo debe diseñarse* (NFPA 72).
-> ⚠️ **Verificar en NotebookLM** contra la edición del IBC efectivamente adoptada, y confirmar el umbral exacto de IBC §907.2.1 y §903.2.1.3.
-
-## 2.9 Jurisdicción y AHJ (insumo para la Sección 1.3–1.4)
-
-- **Ciudad:** Paxton · **Condado:** Ford · **Estado:** Illinois.
-- ⚠️ **Punto a verificar y que da valor al informe:** Illinois **no adopta un código de construcción estatal obligatorio de aplicación general** para todos los municipios, a diferencia de la mayoría de los estados. La **Office of the State Fire Marshal (OSFM)** de Illinois adopta y hace cumplir el **NFPA 101 Life Safety Code** vía el Illinois Administrative Code. Esto significa que la AHJ y el código base aplicable aquí **no se derivan automáticamente del IBC**, y hay que determinarlos.
-- **AHJ probable:** Office of the State Fire Marshal de Illinois + el cuerpo/distrito de bomberos local de Paxton + la municipalidad para permisos.
-- **Acción:** Walter debe confirmar en NotebookLM/fuentes oficiales (1) qué edición del NFPA 101 adopta el 41 Ill. Adm. Code, y (2) si Paxton adoptó localmente el IBC/IFC por ordenanza. Este es exactamente el tipo de detalle que el enunciado pide en el punto 1 ("identificar el estado y la ciudad … e investigar cuáles códigos y ediciones son aplicables en dicha jurisdicción").
-
----
-
-### Planos arquitectónicos originales
 
 Incluir en el documento las láminas 2, 3, 4, 5, 9, 10 y 11 del set HABS IL-329 (archivos TIFF en `Planos/`), con su pie de figura y la cita completa a la Library of Congress.
