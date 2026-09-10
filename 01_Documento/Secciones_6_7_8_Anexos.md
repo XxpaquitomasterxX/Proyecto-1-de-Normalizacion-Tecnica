@@ -143,17 +143,15 @@ El proyecto lo hizo evidente de forma concreta. La compatibilidad entre el panel
 
 | # | Integrante | Herramienta | Propósito | Prompt (texto exacto) |
 |---|---|---|---|---|
-| 1 | Walter | Claude | Revisar las láminas HABS, extraer cotas y áreas, y reorganizar el trabajo tras quedar el equipo en dos personas | *"hola en esta carpeta y en este proyecto esta todas las instrucciones, ya tengo los planos completos puedes revisar y hacer los calculos, una cosa para aclarar estamos sep 5 y solo tenemos echo lo que esta subido aca y solo estamos mi compañero sebastian y yo tenemos que sacarlo todo ahorita, dime que hacer o que puedes ir haciendo tu para empezar"* |
+| 1 | Sebastián | Claude | Revisar las láminas HABS, extraer cotas y áreas, y reorganizar el trabajo tras quedar el equipo en dos personas | *"hola en esta carpeta y en este proyecto esta todas las instrucciones, ya tengo los planos completos puedes revisar y hacer los calculos, una cosa para aclarar estamos sep 5 y solo tenemos echo lo que esta subido aca y solo estamos mi compañero sebastian y yo tenemos que sacarlo todo ahorita, dime que hacer o que puedes ir haciendo tu para empezar"* |
 | 2 | Walter | Claude | Verificar alturas de cielo con las secciones y cerrar las incógnitas del domo y las estanterías | *"sebas escogio el MS-9600, ya descargue los planos que hacian falta, dime si necesitas algo mas"* |
 | 3 | Walter | Claude | Extraer los datos eléctricos del manual del panel y realizar los cálculos de la Sección 5.3 | *"usemos la variante sencilla el MS-9600, cree una carpeta y agregue una ficha del panel, dime si necesitas algo mas o si con ese documento no funciona?"* |
-| 4 | Walter | Claude | Identificar y localizar el Device Compatibility Document | *"que es el DCD donde lo descargo"* |
-| 5 | Walter | **Gemini** | Consultar la tabla de NFPA 72 de espaciamiento de aparatos visuales de pared | *[pegar aquí el prompt exacto que se le dio a Gemini]* |
-| 6 | Walter | Claude | Verificar la tabla de candelas obtenida de Gemini y localizar acceso a la norma | *"no encuentro ese archivo porque me pide cuenta para descargar, gemini me dijo esto, si hace falta supongamos que esta bien si hace falta dime para ver si busco la forma de acceder a la norma pq cobran para descargarla"* + tabla pegada |
-| 7 | Walter | Claude | Obtener el estado del proyecto y una guía para elaborar los planos sin experiencia previa | *"okey explicame el estado actual, de todo el proyecto que falta? ademas que no tenemos ni experiencia ni idea de como hacer los planos como hacemos para realizarlos? tienes una guia o que debe llevar exactamente"* |
-| 8 | Walter | Claude | Generar el diagrama de interconexión y redactar las secciones pendientes | *"si genera el riser, ademas despues redacta lo que haga falta"* |
-| 9 | Walter | Claude | Determinar la jurisdicción aplicable en Illinois y la edición de norma correspondiente | *"el tema con las ediciones es que el visualizador no funciona… dime como buscar lo de la jurisdiccion de illinois…"* |
+| 4 | Thomas | Claude | Identificar y localizar el Device Compatibility Document | *"que es el DCD donde lo descargo"* |
+| 5 | Walter | Claude | Verificar la tabla de candelas obtenida de Gemini y localizar acceso a la norma | *"no encuentro ese archivo porque me pide cuenta para descargar, gemini me dijo esto, si hace falta supongamos que esta bien si hace falta dime para ver si busco la forma de acceder a la norma pq cobran para descargarla"* + tabla pegada |
+| 6 | Sebastián | Claude | Obtener el estado del proyecto y una guía para elaborar los planos sin experiencia previa | *"okey explicame el estado actual, de todo el proyecto que falta? ademas que no tenemos ni experiencia ni idea de como hacer los planos como hacemos para realizarlos? tienes una guia o que debe llevar exactamente"* |
+| 7 | Walter | Claude | Generar el diagrama de interconexión y redactar las secciones pendientes | *"si genera el riser, ademas despues redacta lo que haga falta"* |
+| 8 | Thomas | Claude | Determinar la jurisdicción aplicable en Illinois y la edición de norma correspondiente | *"el tema con las ediciones es que el visualizador no funciona… dime como buscar lo de la jurisdiccion de illinois…"* |
 
-> ⚠️ **Falta completar la fila 5** con el texto exacto del prompt que se le dio a Gemini.
 
 ## Nota metodológica sobre la verificación
 
