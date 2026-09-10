@@ -130,8 +130,14 @@ El proyecto lo hizo evidente de forma concreta. La compatibilidad entre el panel
 9. Fire•Lite Alarms (Honeywell). *MS-9600LS(E)/MS-9600UDLS(E) Intelligent Addressable FACP with Optional Second Loop*. Hoja técnica **DF-60334:A6**, 20 de febrero de 2019.
 10. Fire•Lite Alarms (Honeywell). *MS-9600LS Series Addressable Fire Alarm Control Panel — Installation Manual*. Documento **PN 52646:B**, 17 de junio de 2008. *(Tabla 5.3, System Current Draw Calculations; Tabla 5.4, Total Secondary Power Requirements.)*
 11. Fire•Lite Alarms (Honeywell). *Device Compatibility Document*. Documento **P/N 15384:BR**, 25 de enero de 2022, ECN 151532.
-12. Fire•Lite Alarms (Honeywell). *SLC Wiring Manual*. Documento **51309**. *(Apéndice D.1: base B350LP; tabla de longitud máxima de lazo por calibre.)*
-13. System Sensor (Honeywell). *SpectrAlert Advance — Indoor Wall Horns, Strobes and Horn Strobes*. Hoja técnica **AVDS102**.
+12. Fire•Lite Alarms (Honeywell). *SLC Wiring Manual*. Documento **51309**. *(Tabla 2.2: longitud máxima de lazo por calibre; §2.2.1: resistencia máxima en Style 4; apéndice D: bases de dispositivos legacy.)*
+13. Fire•Lite Alarms (Honeywell). *SD355(A) Series Addressable Photoelectric Smoke Detectors*. Hoja técnica **DF-52384:D**, 11 de febrero de 2015. *(Rango 15–32 VDC; standby 300 µA; base B210LP incluida.)*
+14. Fire•Lite Alarms (Honeywell). *H355(A) Series Intelligent Addressable Thermal Detectors*. Hoja técnica **DF-52385:D**. *(Razón de aumento 15 °F/min; espaciamiento listado 50 ft; base B210LP incluida.)*
+15. Fire•Lite Alarms (Honeywell). *BG-12LX Addressable Manual Pull Station*. Hoja técnica **DF-52013:D**, 13 de abril de 2012. *(Doble acción; standby 375 µA máx.; alarma 5 mA máx.)*
+16. Fire•Lite Alarms (Honeywell). *ANN-80 80-Character LCD Serial Annunciator*. Hoja técnica **DF-52417:D**. *(18–28 VDC; hasta 6 000 ft del panel por ANN-BUS.)*
+17. Fire•Lite Alarms (Honeywell). *BAT Series Batteries — Sealed Lead-Acid*. Hoja técnica **DF-52397:C1**, 13 de julio de 2011. *(BAT-12120 = 12 V / 12 AH, celdas Power-Sonic PS-12120.)*
+18. Fire•Lite Alarms (Honeywell). *Intelligent Bases — Standard, Relay, Isolator, Sounder and Low-Frequency*. Hoja técnica **DF-60059:G**.
+19. System Sensor (Honeywell). *SpectrAlert Advance — Indoor Wall Horns, Strobes and Horn Strobes*. Hoja técnica **AVDS102**. *(Rango 16–33 VDC; corrientes UL máx.; salida 88 dBA a 10 ft.)*
 
 ---
 
