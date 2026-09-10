@@ -134,7 +134,6 @@ Espacio libre sobre la estantería   =  7,56 ft   (49 % de la altura de cielo)
 > **Conclusión:** las estanterías **no** compartimentan el espacio. Hay 7'-7" de altura libre continua sobre todo el abanico, y el humo llega al cielo sin obstrucción. Se aplica **espaciamiento normal de cielo liso**, y los 2 detectores de la zona de Stacks quedan justificados **por geometría** (la esquina crítica a 20,8 ft ≤ 21 ft), no por un argumento de obstrucción.
 >
 
-### 5.3 Ático combustible sobre la rotonda — limitación a declarar
-Entre el casquete de yeso y el domo exterior queda un **espacio oculto de gran volumen con cerchas de madera** (lámina 10). El diseño **no** coloca detección ahí. Conviene declararlo explícitamente como limitación en la Sección 6 y señalar que en un proyecto real habría que consultarlo con la AHJ.
+
 
 
