@@ -128,7 +128,7 @@ El manual da las corrientes de **standby** de los dispositivos del lazo, pero **
 |---|---|---|
 | Detector de humo fotoeléctrico direccionable | **SD355** | ✔ **confirmado en la Tabla 5.3 del manual** |
 | Detector térmico direccionable | **H355R** (rate-of-rise) | ✔ **confirmado en la Tabla 5.3 del manual** |
-| Base para detector | B350LP | verificar en el DCD |
+| Base para detector | **B210LP** (incluida con el detector) | DF-52384:D / DF-52385:D. La B350LP es legacy |
 | Estación manual direccionable | **BG-12LX** | ✔ **confirmado en la Tabla 5.3 del manual** |
 | Módulo monitor | **MMF-300** | ✔ **confirmado en la Tabla 5.3 del manual** |
 | Módulo de control (NAC) | **CMF-300 / CMF-300-6** | ✔ **nombrados en esta hoja técnica** (pág. 1) |
